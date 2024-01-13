@@ -16,7 +16,6 @@ async function obtenerDatosAPI() {
   }
 }
 
-// Uso de la función
 obtenerDatosAPI()
   .then((datos) => {
     console.log('Datos de la API:', datos);
